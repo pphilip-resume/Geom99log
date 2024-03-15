@@ -8,6 +8,7 @@ Description:
 Creating a VM through Google cloud with the credits from Google
 STEPS:
 1.	Create a new project in the google cloud console based on the credits
+
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/fab4346e-8c90-4b99-9754-99ca1aae1ba8)
 
 2.	Create a VM in google cloud console platform
@@ -35,46 +36,55 @@ STEPS:
 
 
 Start time:06/03/2024 19:15 pm
+
 End time:06/03/2024 20:00pm
+
 Total time: 65 mins
+
 Title: **Publishing the ArcGis pro map Through the  vm Created**
-Description: 
-Publish a map through arcgis from a remote server using the IP address and specifying the port
+
+Description: Publish a map through arcgis from a remote server using the IP address and specifying the port
+
 Steps: VM IS RUNNING THROUGHOUT
+
 1.	Start the VM 
 2.	On the local computer start the Remote Desktop connection 
 3.	Enter the External IP(will be different every time, add:444 port)
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/c0284883-2741-4aa2-a3e2-efd088042d18)
 4. Add the credentials
-   ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/d72247f5-7535-4dbb-b17a-655a13d79b45)
+![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/d72247f5-7535-4dbb-b17a-655a13d79b45)
 5. Accept the certificate
-   ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/a5ae126d-6883-4fdf-ac2f-148540843196)
-6.	This will initiate the VM.
-7.	Place the required shapefile in the path specified (extracted)
+![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/a5ae126d-6883-4fdf-ac2f-148540843196)
+7.	This will initiate the VM.
+8.	Place the required shapefile in the path specified (extracted)
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/52b56c1d-e5d3-49e9-88d6-b33b817e1e2f)
+
 8.This makes sure that the folder path is correct.
+
 The following steps to be completed in the local computer
 
-9.	Create a new map in the arcPro and add the required shapefile
+10.	Create a new map in the arcPro and add the required shapefile
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/ad0c6abe-5705-4995-b5a9-ea05ae530097)
 
-10.	Add the server connection
+11.	Add the server connection
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/151c7b02-829c-4896-9215-4c4198590ed0)
 
-11.	The link would be the external IP of the running VM :6443/arcgis
+12.	The link would be the external IP of the running VM :6443/arcgis
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/fe106938-a48a-43df-8485-3f8a9aa85c0c)
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/ced93379-307f-4af5-8109-7db265adb78c)
 
-12. Username and password to be entered
-13.	Change the map name and publish
-14.	Add the reference site root 
+13. Username and password to be entered
+14.	Change the map name and publish
+15.	Add the reference site root 
 
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/5e5f4d84-3eba-4834-8452-b41e1dec145d)
 
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/27708899-7742-42bc-8808-823106b00ae3)
 
 15.Analyse the service (add ids sequentially, register folder)
+
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/3588c9b6-9686-48c0-8f9c-9f958c42d5df)
+
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/8b0e796c-83d8-41bd-8444-bd4cb1029b61)
 
 16.	Open the map published from the sever(check if layer is there)
@@ -85,7 +95,7 @@ The following steps to be completed in the local computer
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/96cc54db-722b-4b83-8f49-2ec7c95a9f97)
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/7bcaeefc-df8b-4eb4-8595-09fcc7c24327)
 
-20. the service that is already presentin the server
+20. the service that is already presenting the server
 
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/a351a55a-2fca-4997-adc1-be0dd9dcc53b)
 
@@ -107,7 +117,7 @@ The following steps to be completed in the local computer
 22. server contains
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/2b77c149-7657-4ad3-9541-37efc1795e46)
 
-23. shuuting down the VM
+23. shutting down the VM
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/b384139b-5fc7-43b8-a2b8-b28de9e0cb66)
 
 
