@@ -120,6 +120,22 @@ The following steps to be completed in the local computer
 23. shutting down the VM
 ![image](https://github.com/pphilip-resume/Geom99log/assets/146376119/b384139b-5fc7-43b8-a2b8-b28de9e0cb66)
 
+What I Undersood
+when we are using the VM instance we get a new Ip address everytime, this sets the username and password which is used to create the remote desktop.
+After this we use the vitrual desktop to store out data (the path is important here), now the server is active if the IP address provided
+Here we are using the initial port allowed to make sure we have access inside the desktop
+With the server running, we will create an ArcGis Connection (the data is stored there), 
+Now we will add the data and create the map to publish
+while publishing teh path of the data stored becomes important and the folder to which the data is being published is also specified(root)
+with the map analysed and published, the rest services and arcGIS manager shows the feature layer created.
+now this URL from the rest services is used to make sure the data is published in ArcGIS online.
+The map is saved as a web map
+
+This map is connected with the IP address so once we stop the VM from running the map source does not exist anymore so we cannot access it.
+We can re-access the rest services with new IP address and port, (we need the VM running and remote desktop open and data in the path available to do so)
+We cannot acccess the web map and image layer as the source for the map (IP) is not available.
+We need to add the source IP again to make the map and save the web map
+
 
 
 
